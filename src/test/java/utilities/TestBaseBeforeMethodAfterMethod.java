@@ -7,8 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
 public abstract class TestBaseBeforeMethodAfterMethod {
+
     protected WebDriver driver;
     protected String tarih;
 
@@ -21,6 +21,7 @@ public abstract class TestBaseBeforeMethodAfterMethod {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter formater = DateTimeFormatter.ofPattern("YYMMddHHmmss");
         tarih = date.format(formater);

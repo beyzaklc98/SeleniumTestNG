@@ -8,8 +8,7 @@ public class C04_DriverIlkTest {
     public void test01() {
      /*
      TestBase class'ına extend ederek kullandığımız driver yerine artık
-     Driver class'ından kullanacağımız
-     getDriver() static method'unu kullanırız
+     Driver class'ından kullanacağımız getDriver() static method'unu kullanırız
      */
         Driver.getDriver().get("https://amazon.com");
         Driver.getDriver().get("https://bestbuy.com");

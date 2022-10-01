@@ -9,6 +9,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 public abstract class TestBaseBeforeClassAfterClass {
+
     protected WebDriver driver;
     protected String tarih;
 
@@ -24,7 +25,6 @@ public abstract class TestBaseBeforeClassAfterClass {
         LocalDateTime date = LocalDateTime.now();
         DateTimeFormatter formater = DateTimeFormatter.ofPattern("YYMMddHH");
         tarih = date.format(formater);
-
     }
 
     @AfterClass

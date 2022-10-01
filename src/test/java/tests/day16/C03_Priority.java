@@ -4,7 +4,8 @@ import utilities.TestBaseBeforeMethodAfterMethod;
 public class C03_Priority extends TestBaseBeforeMethodAfterMethod {
 
     /*
-    Testlerimizi çalıştırırken istediğimiz sıraya göre çalışmasını istersek priority methodunu kullanırız
+    Testlerimizi çalıştırırken istediğimiz sıraya göre çalışmasını istersek
+    priority methodunu kullanırız
     Priority kullanmazsak default olarak 0 dır
      */
 
