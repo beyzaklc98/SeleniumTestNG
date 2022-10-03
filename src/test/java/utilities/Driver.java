@@ -11,6 +11,10 @@ import java.time.Duration;
 public class Driver {
     private Driver(){
     }
+    //SingletonPattern : tekli kullanim demektir. Bir class'in farkli class'lardan
+    //obje olusturarak kullanimini engellemektir bu sebeple defoult consractir yerine
+    // private Driver() consraktiri ekledik
+
     static WebDriver driver;
     /*
     Testlerimizi çalıştırdığımızda her seferinde yeni driver oluşturduğu için her test methodu

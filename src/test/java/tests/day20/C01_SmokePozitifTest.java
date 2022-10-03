@@ -1,4 +1,4 @@
-package tests.day18;
+package tests.day20;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -6,9 +6,11 @@ import org.testng.annotations.Test;
 import pages.HmcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-public class C03_ConfigReader {
+public class C01_SmokePozitifTest {
+
     @Test
-    public void test01() {
+    public void pozitifTest() {
+
         //https://www.hotelmycamp.com/ adresine git  login butonuna bas
         Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
         HmcPage hmcPage = new HmcPage();
@@ -20,7 +22,6 @@ public class C03_ConfigReader {
         */
 
         hmcPage.login.click();
-
         //test data username: manager ,
         //test data password : Manager1!
         hmcPage.userName.sendKeys(ConfigReader.getProperty("user"));
@@ -31,6 +32,6 @@ public class C03_ConfigReader {
         //Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
         Assert.assertTrue(hmcPage.girisYapildi.isDisplayed());
         Driver.closeDriver();
-
     }
 }
+
