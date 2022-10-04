@@ -8,7 +8,6 @@ import pages.HmcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 public class C03_E2ETest {
-
     @Test
     public void E2ETest() throws InterruptedException {
         //https://www.hotelmycamp.com adresine git.
@@ -34,8 +33,8 @@ public class C03_E2ETest {
         Faker faker = new Faker();
         hmcPage.idUser.sendKeys("manager");
         actions.sendKeys(Keys.TAB).sendKeys("Happy Hotel").
-                sendKeys(Keys.TAB).sendKeys("1500").sendKeys(Keys.TAB).sendKeys("10/02/2022")
-                .sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys("10/13/2022").
+                sendKeys(Keys.TAB).sendKeys("1500").sendKeys(Keys.TAB).sendKeys("10/04/2022").
+                sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys("10/13/2022").
                 sendKeys(Keys.TAB).sendKeys(Keys.TAB).sendKeys("2").sendKeys(Keys.TAB).sendKeys("2")
                 .sendKeys(Keys.TAB).sendKeys(faker.name().fullName()).sendKeys(Keys.TAB).
                 sendKeys(faker.phoneNumber().cellPhone()).sendKeys(Keys.TAB)
