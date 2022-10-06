@@ -1,7 +1,7 @@
 package tests.day17;
 import org.testng.annotations.Test;
-import utilities.Driver;
-import utilities.TestBaseBeforeClassAfterClass;
+import tests.homework1.utilities.Driver;
+
 public class C04_DriverIlkTest {
 
     @Test

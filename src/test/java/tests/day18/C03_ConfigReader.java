@@ -4,8 +4,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HmcPage;
-import utilities.ConfigReader;
-import utilities.Driver;
+import tests.homework1.utilities.ConfigReader;
+import tests.homework1.utilities.Driver;
 public class C03_ConfigReader {
     @Test (groups ="gp2")
     public void test01() {

@@ -4,7 +4,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeClassAfterClass;
+import tests.homework1.utilities.TestBaseBeforeClassAfterClass;
 public class C04_DependsOnMethod extends TestBaseBeforeClassAfterClass {
     @Test
     public void test1() {

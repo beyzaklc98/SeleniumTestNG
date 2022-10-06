@@ -1,11 +1,10 @@
 package tests.day17;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod;
+import tests.homework1.utilities.TestBaseBeforeMethodAfterMethod;
 public class C02_HardAssert extends TestBaseBeforeMethodAfterMethod {
 
      // Hard Assertions : JUNit'te öğrendiğimiz assertion ile aynıdır.

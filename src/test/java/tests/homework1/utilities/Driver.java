@@ -1,20 +1,14 @@
-package utilities;
+package tests.homework1.utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 public class Driver {
     private Driver(){
     }
-    //SingletonPattern : tekli kullanim demektir. Bir class'in farkli class'lardan
-    //obje olusturarak kullanimini engellemektir bu sebeple defoult consracter yerine
-    //private Driver() consracteri ekledik
-
     static WebDriver driver;
     /*
     Testlerimizi çalıştırdığımızda her seferinde yeni driver oluşturduğu için her test methodu
@@ -30,17 +24,17 @@ public class Driver {
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
                     break;
-                case "safari" :
-                    WebDriverManager.safaridriver().setup();
-                    driver = new SafariDriver();
-                    break;
-                case "headless-chrome":
+                case "chrome" :
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver(new ChromeOptions().setHeadless(true));
+                    driver = new ChromeDriver();
                     break;
-                case "opera":
+                case "opera" :
+                    WebDriverManager.operadriver().setup();
+                    driver = new OperaDriver();
+                    break;
+                case "headless-chrome" :
                     WebDriverManager.chromedriver().setup();
-                    driver=new OperaDriver();
+                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
                     break;
                 default:
                     WebDriverManager.chromedriver().setup();

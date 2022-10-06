@@ -1,6 +1,6 @@
 package tests.day16;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod;
+import tests.homework1.utilities.TestBaseBeforeMethodAfterMethod;
 public class C03_Priority extends TestBaseBeforeMethodAfterMethod {
 
     /*

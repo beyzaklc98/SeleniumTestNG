@@ -1,12 +1,11 @@
 package tests.practiceDersi5;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.WebUniversityPage;
-import utilities.Driver;
+import tests.homework1.utilities.Driver;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

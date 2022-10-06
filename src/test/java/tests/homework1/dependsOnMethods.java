@@ -4,8 +4,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import utilities.TestBaseBeforeClassAfterClass;
-import java.security.Key;
+import tests.homework1.utilities.TestBaseBeforeClassAfterClass;
+
 public class dependsOnMethods extends TestBaseBeforeClassAfterClass {
     /*
     Bir class oluşturun: DependsOnTest

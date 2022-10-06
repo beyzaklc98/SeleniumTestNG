@@ -2,8 +2,8 @@ package tests.day21;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.Driver;
-import utilities.ReusableMethods;
+import tests.homework1.utilities.Driver;
+import tests.homework1.utilities.ReusableMethods;
 import java.util.ArrayList;
 public class C02_WindowHandlesReusableMethod {
     @Test

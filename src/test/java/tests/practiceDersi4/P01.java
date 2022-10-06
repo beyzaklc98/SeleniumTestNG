@@ -3,7 +3,7 @@ package tests.practiceDersi4;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import pages.DhtmlgoodiesPage;
-import utilities.Driver;
+import tests.homework1.utilities.Driver;
 public class P01 {
     // Go to URL : http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html
     // Fill in capitals by country.

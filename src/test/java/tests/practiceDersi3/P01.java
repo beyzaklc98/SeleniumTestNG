@@ -1,10 +1,8 @@
 package tests.practiceDersi3;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod;
-import utilities.TestBaseBeforeMethodAfterMethod;
+import tests.homework1.utilities.TestBaseBeforeMethodAfterMethod;
+
 public class P01 extends TestBaseBeforeMethodAfterMethod {
     // ...Exercise3...
     // go to url : https://www.techlistic.com/p/selenium-practice-form.html

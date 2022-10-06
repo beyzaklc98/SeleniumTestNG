@@ -2,7 +2,7 @@ package tests.practiceDersi3;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utilities.TestBaseBeforeMethodAfterMethod ;
+import tests.homework1.utilities.TestBaseBeforeMethodAfterMethod;
 public class P02 extends TestBaseBeforeMethodAfterMethod {
 
     // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin

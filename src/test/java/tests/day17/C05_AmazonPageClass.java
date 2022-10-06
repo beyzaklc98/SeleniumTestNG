@@ -2,7 +2,7 @@ package tests.day17;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
-import utilities.Driver;
+import tests.homework1.utilities.Driver;
 public class C05_AmazonPageClass {
 
     @Test
